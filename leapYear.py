@@ -9,3 +9,9 @@ def isLeapYear(year):
             return True
     else: 
         return False
+
+isLeapYear(2020)
+isLeapYear(2000)
+isLeapYear(1900)
+isLeapYear(1500)
+isLeapYear(1893)
