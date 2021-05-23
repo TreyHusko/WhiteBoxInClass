@@ -1,5 +1,5 @@
 import unittest
-# import leapYear
+import leapYear
 
 class testCaseLeapYear(unittest.TestCase):
     def test_LeapYear(self):
@@ -10,10 +10,10 @@ class testCaseLeapYear(unittest.TestCase):
         self.assertEqual(result, False)
     def test_LeapYear3(self):
         result =  leapYear.isLeapYear(1900)
-        self.assertEqual(result, False)
+        self.assertEqual(result, True)
     def test_LeapYear4(self):
         result =  leapYear.isLeapYear(1600)
-        self.assertEqual(result, True)
+        self.assertEqual(result, False)
     def test_LeapYear6(self):
         result =  leapYear.isLeapYear(2020)
         self.assertEqual(result, True)
